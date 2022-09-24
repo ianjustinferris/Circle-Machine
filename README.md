@@ -16,7 +16,7 @@ Tribute to the first Electro-Mechanical Sequencer developed by Raymond Scott.
 
 ## Deployed_Link
 
-coming...
+https://ianjustinferris.github.io/Circle-Machine/
 
 ## Installation
 
