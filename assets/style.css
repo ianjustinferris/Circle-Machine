@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(125, 125, 124);
+}
+
+
+/* .led-box {
+    height: 30px;
+    width: 25%;
+    margin: 10px 0;
+    float: left;
+  }
+
+
+.led-box p {
+    font-size: 12px;
+    text-align: center;
+    margin: 1em;
+  } */
+
+  .led-yellow {
+    border: 6px solid rgb(27, 27, 27);
+    /* margin: 0 auto; */
+    width: 30px;
+    height: 30px;
+    background-color: rgb(251, 251, 0);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808002 0 -1px 9px, rgb(255, 255, 64) 0 2px 12px;
+    /* -webkit-animation: blinkYellow 1s infinite;
+    -moz-animation: blinkYellow 1s infinite;
+    -ms-animation: blinkYellow 1s infinite;
+    -o-animation: blinkYellow 1s infinite; */
+    animation: blinkYellow 2s infinite;
+  }
+
+  @keyframes blinkYellow {
+      from { background-color: rgb(255, 255, 64); }
+      50% { background-color: #AA0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808002 0 -1px 9px, rgb(255, 255, 64) 0 2px 0; }
+      to { background-color: rgb(255, 255, 64); }
+  }
+  
